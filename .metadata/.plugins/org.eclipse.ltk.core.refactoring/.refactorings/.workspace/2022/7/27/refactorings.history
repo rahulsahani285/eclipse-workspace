@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Delete resource &apos;testng-browserstack&apos;" deleteContents="true" description="Delete resource &apos;testng-browserstack&apos;" element1="/testng-browserstack" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1656682576570"/>
+</session>

@@ -1,0 +1,17 @@
+package TestCases;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+import ObjectRepository.NextdoorHomePage;
+import io.github.bonigarcia.wdm.WebDriverManager;
+
+public class Main_Class {
+	public static void main(String args[])
+	{
+		WebDriverManager.chromedriver().setup();
+		WebDriver driver = new ChromeDriver();
+		NextdoorHomePage obj = new NextdoorHomePage(driver);
+	}
+
+}
